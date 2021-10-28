@@ -1,0 +1,24 @@
+Package: hypeRest
+Type: Package
+Title: Estimate Treatment Effects from Hypothetical Evaluations (in R)
+Version: 0.1.0
+Date: 2021-10-28
+Authors@R: c(
+    person("B. Douglas", "Bernheim", role = "aut"),
+    person("Daniel", "Björkegren", role = "aut"),
+    person("Jeffrey", "Naecker", role = "aut"),
+    person("Michael", "Pollmann", email = "pollmann@stanford.edu", role = c("aut","cre")))
+Maintainer: Michael Pollmann <pollmann@stanford.edu>
+Description: Estimate treatment effects using hypothetical evaluations with low- or high-dimensional specifications.
+Remotes:
+    github::swager/balanceHD
+Imports:
+    balanceHD,
+    glmnet,
+    graphics,
+    MASS,
+    sandwich,
+    stats
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
